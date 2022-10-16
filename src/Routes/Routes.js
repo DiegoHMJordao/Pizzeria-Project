@@ -8,6 +8,7 @@ import NotFound from '../components/NotFound/NotFound'
 const Routes = () => {
     return useRoutes([
         {path:"/", element:<Home />},
+        {path:"/Pizzeria-Project/", element:<Home />},
         {path:"/home", element:<Home />},
         {path:"/menu", element:<Menu />},
         {path:"/reservas", element:<Reservas />},
