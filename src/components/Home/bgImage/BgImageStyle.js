@@ -6,12 +6,11 @@ export const BgImageStyle = styled.div`
     background-position:center;
     background-repeat:no-repeat;
     background-size:cover;
-    background-attachment:fixed;
     max-width:100%;
-    height:100vh;
+    height:50vh;
 
-    @media (max-width: 760px){
-    background-attachment:scroll;
+    @media (min-width: 760px){
     height:60vh;
     }
+
 `

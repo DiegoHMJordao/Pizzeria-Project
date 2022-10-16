@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { HeaderStyle } from './HeaderStyle'
 import logo from '../../assets/logo/logo.png'
@@ -9,7 +9,7 @@ import {IoList} from 'react-icons/io5'
 const Header = () => {
 
     
-const headerList = ['Home', 'Menu', 'Reservas']
+const headerList = ['Home', 'Menu', 'Reservas','TakeAway']
 const [menuMobileShow, setMenuMobileShow] = useState(false)
 
 
@@ -19,7 +19,7 @@ const [menuMobileShow, setMenuMobileShow] = useState(false)
                 menuMobileShow={menuMobileShow}
                 setMenuMobileShow={setMenuMobileShow}
             />
-            <IoList size={45} onClick={() => setMenuMobileShow(true)} />
+            <IoList size={45} onClick={() => setMenuMobileShow(!menuMobileShow)} />
             <img src={logo} />
             <nav>
                 <ul>

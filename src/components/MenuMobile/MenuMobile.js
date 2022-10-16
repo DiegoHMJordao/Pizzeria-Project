@@ -5,17 +5,17 @@ import { Link } from 'react-router-dom'
 
 const MenuMobile = ({menuMobileShow, setMenuMobileShow}) => {
 
-    const headerList = ['Home', 'Menu', 'Reservas']
+    const headerList = ['Home', 'Menu', 'Reservas', 'TakeAway']
 
     return(
         <MenuMobileStyle  menuMobileShow={menuMobileShow}>
-            <IoClose size={45} onClick={() => setMenuMobileShow(false)}   />
+            <IoClose size={45} onClick={() => setMenuMobileShow(!menuMobileShow)}   />
             <nav>
                 <ul>
                     {
                         headerList.map(param =>
                             <li key={param}>
-                                <Link onClick={() => setMenuMobileShow(false)}  to={`/${param}`} >{param}</Link>
+                                <Link onClick={() => setMenuMobileShow(!menuMobileShow)}  to={`/${param}`} >{param}</Link>
                             </li>)
                     }
                 </ul>

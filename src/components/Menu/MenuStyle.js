@@ -39,6 +39,14 @@ export const MenuStyle = styled.div`
         }
     }
 
+    @media (min-width:768px) and (max-width: 959px){
+        justify-content:center;
+        section {
+            margin-left: 10rem;
+            max-width: 60%;
+        }
+}
+
     @media (min-width: 960px){
         flex-direction:column;
 
@@ -63,7 +71,6 @@ export const MenuStyle = styled.div`
             display:flex;
             align-items:center;
         }
-
 
         img {     
             opacity:0.7;

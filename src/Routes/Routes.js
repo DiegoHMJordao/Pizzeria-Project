@@ -11,6 +11,7 @@ const Routes = () => {
         {path:"/home", element:<Home />},
         {path:"/menu", element:<Menu />},
         {path:"/reservas", element:<Reservas />},
+        {path:"/TakeAway", element:<Reservas />},
         {path:"*", element:<NotFound />}
     ])
 }

@@ -7,7 +7,7 @@ export const ReservasStyle = styled.section`
     flex-direction:column;
     text-align:center;  
     gap: 2;
-    padding: 2rem;    
+    padding: 4rem;    
     background-color: #3f1503;
 
     img {
@@ -21,11 +21,11 @@ export const ReservasStyle = styled.section`
         align-items:center;
         height:auto;
         border-radius:8px;
-        padding: 1.25rem;
+        padding: 1rem;
         box-shadow: 0 0 5px black;
         overflow:hidden;
-        background-color:white;
         background-color: #91491a;
+        position:relative;
     }
 
     form h1 {
@@ -45,7 +45,7 @@ export const ReservasStyle = styled.section`
         border-radius:8px;
         border:none;
         background-color: #ffce9f;
-        line-height:2;
+        line-height:2.2;
     }
 
     button{
@@ -64,15 +64,16 @@ export const ReservasStyle = styled.section`
     span {
         position:absolute;
         color:red;
-        margin-top:4rem;
-        font-size:0.85rem;
+        margin-top:4.5rem;
+        font-size:0.75rem;
+
     }
 
 @media (min-width: 760px) {
     display:flex;
     justify-content:space-around;
     flex-direction:row;
-    padding: 1.5rem;
+    padding: 6.75rem 0;
 
     form{
         width:10%;

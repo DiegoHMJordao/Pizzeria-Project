@@ -11,7 +11,7 @@ const Reservas = () => {
         name: yup.string().required("Digite seu nome!"),
         lastname:yup.string().required("Digite o sobrenome corretamente!"),
         contacto:yup.string().min(9,"O contacto deve ter pelo menos 9 digitos").required("O contacto é obrigatória"),
-        email: yup.string().email().required("Digite o e-mail corretamente!")
+        email: yup.string().email("Digite um e-mail valido").required("Digite o e-mail corretamente!")
     })
 
     const { 

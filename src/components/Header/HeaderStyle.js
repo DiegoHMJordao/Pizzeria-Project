@@ -33,6 +33,7 @@ export const HeaderStyle = styled.header`
 
     @media screen and (max-width: 960px){
         justify-content:flex-start;
+        padding:0.85rem;
         
         img, nav {
             display:none;
