@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Pizzeria-Project/static/css/main.51cbf18d.css",
+    "main.js": "/Pizzeria-Project/static/js/main.ae7a4c97.js",
+    "static/media/bgImage.jpg": "/Pizzeria-Project/static/media/bgImage.f339b7986e374dfaf627.jpg",
+    "static/media/menu1.jpg": "/Pizzeria-Project/static/media/menu1.2ef7b1422c110b7371ea.jpg",
+    "static/media/menu3.jpg": "/Pizzeria-Project/static/media/menu3.ee642fefc3cc02418bd4.jpg",
+    "static/media/menu2.jpg": "/Pizzeria-Project/static/media/menu2.441b778dfa46fb651b59.jpg",
+    "static/media/logo.png": "/Pizzeria-Project/static/media/logo.18dbfc988590007f59bb.png",
+    "static/media/reservaIcon.png": "/Pizzeria-Project/static/media/reservaIcon.828e41ad780c08c7de85.png",
+    "index.html": "/Pizzeria-Project/index.html",
+    "main.51cbf18d.css.map": "/Pizzeria-Project/static/css/main.51cbf18d.css.map",
+    "main.ae7a4c97.js.map": "/Pizzeria-Project/static/js/main.ae7a4c97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51cbf18d.css",
+    "static/js/main.ae7a4c97.js"
+  ]
+}
