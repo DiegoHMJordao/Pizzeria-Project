@@ -1,3 +1,9 @@
+## Hi there!
+
+In this personal project I build a Pizzeria website where we can chec out the menu and make reservation 
+
+##
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
